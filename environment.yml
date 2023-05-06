@@ -1,13 +1,16 @@
 name: nlp_study
 dependencies:
-  - python=3.10
-  - jupyter_contrib_nbextensions
+  - conda-forge::python=3.10
+  - conda-forge::pip
+  - conda-forge::jupyter_contrib_nbextensions
   - pip:
       - torch>=1.2.0
       - gensim>=3.7.0
-      - sklearn 
+      - scikit-learn 
       - seaborn
       - tqdm 
       - nltk 
       - lazyme 
       - requests
+      - tsundoku
+      - ansi 
